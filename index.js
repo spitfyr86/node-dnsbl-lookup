@@ -110,12 +110,14 @@ function multi_lookup(addresses,list,limit){
         host = lookup_address+ '.' + zone; 
 
       do_a_lookup(host,function(err,res){
-        if(err)
-          root.emit('error',err,item);
-        else{   
+        // if(err)
+        //   root.emit('error',err,item);
+        // else{
+        if(res) {
           res.address = address;     
           root.emit('data',res,item);
-        }        
+        }
+        // }    
         callback_b();
       });
     },function(err){
