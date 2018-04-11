@@ -5,11 +5,6 @@
     "url": "http://bl.fmb.la/"
   },
   {
-    "zone": "dnsbl.othello.ch",
-    "name": "dnsbl.othello.ch",
-    "url": "http://software.othello.ch/mod_dnsbl/"
-  },
-  {
     "zone": "ubl.nszones.com",
     "name": "nsZones.com SURBL",
     "url": "http://nszones.com/"
@@ -18,16 +13,6 @@
     "zone": "uribl.pofon.foobar.hu",
     "name": "pofon.foobar.hu URI Blacklist",
     "url": "https://rbl.foobar.hu/"
-  },
-  {
-    "zone": "nomail.rhsbl.sorbs.net",
-    "name": "SORBS Domain names indicating no email sender",
-    "url": "http://www.sorbs.net/"
-  },
-  {
-    "zone": "badconf.rhsbl.sorbs.net",
-    "name": "SORBS Domain names pointing to bad addresses",
-    "url": "http://www.sorbs.net/"
   },
   {
     "zone": "rhsbl.sorbs.net",
@@ -43,20 +28,5 @@
     "zone": "multi.surbl.org",
     "name": "SURBL multi (Combined SURBL list)",
     "url": "http://www.surbl.org/"
-  },
-  {
-    "zone": "uribl.swinog.ch",
-    "name": "Swinog URIBL",
-    "url": "http://antispam.imp.ch/05-uribl.php?lng=1"
-  },
-  {
-    "zone": "uri.blacklist.woody.ch",
-    "name": "Woody's SMTP Blacklist URIBL",
-    "url": "http://blacklist.woody.ch/rblcheck.php3"
-  },
-  {
-    "zone": "rhsbl.zapbl.net",
-    "name": "ZapBL RHSBL",
-    "url": "http://zapbl.net/"
   }
 ]
