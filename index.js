@@ -84,7 +84,7 @@ function do_a_lookup(host,callback){
     } 
     else if(addresses){      
       dns.resolveTxt(host,function(err,records){
-        if(err){
+        if(err && addresses.length === 0){
           return callback(err);
         }
         if(records){
